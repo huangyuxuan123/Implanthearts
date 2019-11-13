@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primary_dark" >
+
+        <ImageView
+            android:id="@+id/setting_back"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@null"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="定时设置"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:paddingTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginBottom="3dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="风扇:"/>
+
+        <EditText
+            android:id="@+id/FANSETH"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时"/>
+
+        <EditText
+            android:id="@+id/FANSETM"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分"/>
+
+
+        <Button
+            android:layout_marginLeft="12dp"
+            android:id="@+id/FAN_ON"
+            android:text="开"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:id="@+id/FAN_OFF"
+            android:text="关"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="水泵:"/>
+
+
+        <EditText
+            android:id="@+id/SPRINKLERHSET"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时"/>
+
+        <EditText
+            android:id="@+id/SPRINKLERMSET"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分"/>
+
+        <Button
+            android:layout_marginLeft="12dp"
+            android:id="@+id/SPRINKLER_ON"
+            android:text="开"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:id="@+id/SPRINKLER_OFF"
+            android:text="关"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黄灯:"/>
+
+        <EditText
+            android:id="@+id/YLIGHTHSET"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时"/>
+
+
+        <EditText
+            android:id="@+id/YLIGHTMSET"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分"/>
+        <Button
+            android:layout_marginLeft="12dp"
+            android:id="@+id/YLIGHT_ON"
+            android:text="开"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_marginLeft="8dp"
+            android:id="@+id/YLIGHT_OFF"
+            android:text="关"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.implanthearts.UpdatePwActivity"
+    android:orientation="vertical">
+
+
+    <!--FrameLayout-->
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <!--底部的RadioGroup-->
+    <RadioGroup
+        android:background="@color/primary_dark"
+        android:id="@+id/rg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_common_frame"
+            android:text="首页"
+            android:drawableTop="@drawable/rb_home_drawable_selector"
+            style="@style/bottom_tag_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_thirdparty"
+            android:text="远程操作"
+            android:drawableTop="@drawable/rb_operation_drawable_selector"
+            style="@style/bottom_tag_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_custom"
+            android:text="社区"
+            android:drawableTop="@drawable/rb_community_drawable_selector"
+            style="@style/bottom_tag_style"
+            />
+        <RadioButton
+            android:id="@+id/rb_other"
+            android:text="个人中心"
+            android:drawableTop="@drawable/rb_person_drawable_selector"
+            style="@style/bottom_tag_style"
+            />
+
+    </RadioGroup>
+
+</LinearLayout>
